@@ -17,30 +17,31 @@ body {
 
 .logo {
   max-width: 150px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #3A5A40;
+  margin: 5px 0;
 }
 
 h1 {
   font-size: 3rem;
-  color: #3A5A40;
-}
-
-p {
-  font-size: 1.5rem;
   color: #C76C43;
-  margin-bottom: 30px;
+  margin: 30px 0;
 }
 
-.btn {
+.contact {
   font-size: 1rem;
-  padding: 12px 30px;
+  margin-top: 40px;
+}
+
+.contact a {
   color: #EAE0C8;
   text-decoration: none;
-  background-color: #3A5A40;
-  border-radius: 5px;
-  transition: background-color 0.3s;
 }
 
-.btn:hover {
-  background-color: #2f4632;
+.contact a:hover {
+  text-decoration: underline;
 }
