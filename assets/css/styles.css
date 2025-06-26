@@ -1,37 +1,46 @@
-/* Genel Stil */
+/* ExoCrested Stylesheet */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  position: relative;
   height: 100vh;
-  color: #eae0c8;
-  text-align: center;
-  background-color: #0d0d0d;
-}
-
-/* Arka plandaki Gecko silueti */
-body::before {
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  background-image: url('../images/gecko.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.08;
-  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EAE0C8;
+  background: linear-gradient(rgba(13, 13, 13, 0.95), rgba(13, 13, 13, 0.95)), 
+              url('https://upload.wikimedia.org/wikipedia/commons/f/f1/Crested_Gecko_Face.jpg') center/cover no-repeat;
 }
 
 .container {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  text-align: center;
+}
+
+.logo {
+  max-width: 150px;
+  margin-bottom: 20px;
 }
 
 h1 {
-  font-size: 3.5em;
-  color: #
+  font-size: 3rem;
+  color: #3A5A40;
+}
+
+p {
+  font-size: 1.5rem;
+  color: #C76C43;
+  margin-bottom: 30px;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 12px 30px;
+  color: #EAE0C8;
+  text-decoration: none;
+  background-color: #3A5A40;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #2f4632;
+}
